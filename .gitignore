@@ -1,1 +1,40 @@
 venv/
+# Environnements virtuels
+venv/
+ENV/
+.venv/
+env/
+*.env
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks et checkpoints
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Données volumineuses
+*.csv
+*.xlsx
+*.parquet
+*.json
+
+# Graphiques et résultats générés
+output/
+*.png
+*.jpg
+*.jpeg
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
